@@ -34,7 +34,7 @@ public class ApplicationTest extends TestCase{
 	    ZipCodeCombiner zipcodeCombiner = new ZipCodeCombiner();
 	    List<ZipCode> sortedZipCodeList = zipcodeCombiner.sortByLowerBounds(zipCodeList);
 	    List<ZipCode> mergedZipCodeList = zipcodeCombiner.mergeZipcodes(sortedZipCodeList);
-	    assertTrue(mergedZipCodeList.size() == 1);
+	    assertTrue(mergedZipCodeList.size() == 3);
 	  }
 
 	  public void testIllegalArgumentException() {

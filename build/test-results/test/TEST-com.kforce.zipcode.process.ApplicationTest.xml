@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kforce.zipcode.process.ApplicationTest" tests="6" skipped="0" failures="1" errors="0" timestamp="2019-06-03T05:12:08" hostname="Adithyas-Air" time="0.017">
+<testsuite name="com.kforce.zipcode.process.ApplicationTest" tests="6" skipped="0" failures="1" errors="0" timestamp="2019-06-03T12:41:20" hostname="Adithyas-Air" time="0.015">
   <properties/>
-  <testcase name="testfinalResultToMatch" classname="com.kforce.zipcode.process.ApplicationTest" time="0.003">
+  <testcase name="testfinalResultToMatch" classname="com.kforce.zipcode.process.ApplicationTest" time="0.002">
     <failure message="junit.framework.AssertionFailedError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
 	at junit.framework.Assert.fail(Assert.java:55)
 	at junit.framework.Assert.assertTrue(Assert.java:22)
@@ -54,10 +54,10 @@
 </failure>
   </testcase>
   <testcase name="testIllegalArgumentException" classname="com.kforce.zipcode.process.ApplicationTest" time="0.001"/>
-  <testcase name="testLoadedList" classname="com.kforce.zipcode.process.ApplicationTest" time="0.012"/>
-  <testcase name="testExceptionMessageWhenLowerBoundGreater" classname="com.kforce.zipcode.process.ApplicationTest" time="0.0"/>
-  <testcase name="testExceptionWhenMoreRanges" classname="com.kforce.zipcode.process.ApplicationTest" time="0.001"/>
-  <testcase name="testExceptionMessageWhenMoreRangeGiven" classname="com.kforce.zipcode.process.ApplicationTest" time="0.0"/>
+  <testcase name="testLoadedList" classname="com.kforce.zipcode.process.ApplicationTest" time="0.01"/>
+  <testcase name="testExceptionMessageWhenLowerBoundGreater" classname="com.kforce.zipcode.process.ApplicationTest" time="0.001"/>
+  <testcase name="testExceptionWhenMoreRanges" classname="com.kforce.zipcode.process.ApplicationTest" time="0.0"/>
+  <testcase name="testExceptionMessageWhenMoreRangeGiven" classname="com.kforce.zipcode.process.ApplicationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
